@@ -1,0 +1,34 @@
+{
+  "name": "gif-extract-frames",
+  "version": "0.0.1",
+  "description": "Extracts frames from a GIF including inter-frame coalescing.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/gif-extract-frames",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava -v -u && standard"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "gif",
+    "frames",
+    "extract",
+    "explode"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "rmfr": "^2.0.0",
+    "sharp": "^0.20.2",
+    "standard": "^11.0.0",
+    "tempy": "^0.2.1"
+  },
+  "dependencies": {
+    "get-pixels": "^3.3.0",
+    "pify": "^3.0.0",
+    "pump-promise": "^1.0.0",
+    "save-pixels": "^2.3.4"
+  }
+}
