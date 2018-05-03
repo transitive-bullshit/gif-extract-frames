@@ -11,19 +11,19 @@ Some GIFs store delta information between frames instead of storing complete fra
 
 ---
 
-Original input gif:
+Original gif.
 
 ![Input gif bubbles](https://raw.githubusercontent.com/transitive-bullshit/gif-extract-frames/master/media/bubbles.gif)
 
 ---
 
-Here's an example of 5 extracted frames **without** coalescing.
+5 extracted frames **without** coalescing.
 
 ![Example without coalescing](https://raw.githubusercontent.com/transitive-bullshit/gif-extract-frames/master/media/example-without-coalescing.png)
 
 ---
 
-And here's the equivalent example of 5 extracted frames **with** coalescing.
+5 extracted frames **with** coalescing.
 
 ![Example without coalescing](https://raw.githubusercontent.com/transitive-bullshit/gif-extract-frames/master/media/example-with-coalescing.png)
 
