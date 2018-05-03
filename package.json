@@ -1,6 +1,6 @@
 {
   "name": "gif-extract-frames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extracts frames from a GIF including inter-frame coalescing.",
   "main": "index.js",
   "repository": "transitive-bullshit/gif-extract-frames",
