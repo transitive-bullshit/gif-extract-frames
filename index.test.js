@@ -10,7 +10,7 @@ const extractFrames = require('.')
 
 const fixturesPath = path.join(__dirname, `media`)
 
-test(`bubbles.gif => coalesce => png`, async (t) => {
+test.only(`bubbles.gif => coalesce => png`, async (t) => {
   const directory = tempy.directory()
   const filename = 'test-%d.png'
   const output = path.join(directory, filename)
@@ -34,7 +34,8 @@ test(`bubbles.gif => coalesce => png`, async (t) => {
     t.deepEqual(image.format, 'png')
   }
 
-  await rmfr(directory)
+  console.log(directory)
+  // await rmfr(directory)
 })
 
 test(`bubbles.gif => no coalesce => png`, async (t) => {

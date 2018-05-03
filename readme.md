@@ -7,8 +7,27 @@
 
 ## Why?
 
-Some GIFs store delta information between frames instead of storing each frame in its entirety.
+Some GIFs store delta information between frames instead of storing complete frames. Here's an example:
 
+---
+
+Original input gif:
+
+![Input gif bubbles](https://raw.githubusercontent.com/transitive-bullshit/gif-extract-frames/master/media/bubbles.gif)
+
+---
+
+Here's an example of 5 extracted frames **without** coalescing.
+
+![Example without coalescing](https://raw.githubusercontent.com/transitive-bullshit/gif-extract-frames/master/media/example-without-coalescing.png)
+
+---
+
+And here's the equivalent example of 5 extracted frames **with** coalescing.
+
+![Example without coalescing](https://raw.githubusercontent.com/transitive-bullshit/gif-extract-frames/master/media/example-with-coalescing.png)
+
+---
 
 ## Install
 
