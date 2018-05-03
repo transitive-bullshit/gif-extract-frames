@@ -11,7 +11,7 @@ Some GIFs store delta information between frames instead of storing complete fra
 
 ---
 
-Original gif.
+Original gif ([source](https://media.giphy.com/media/ycagKBYEmaili/giphy.gif).
 
 ![Input gif bubbles](https://raw.githubusercontent.com/transitive-bullshit/gif-extract-frames/master/media/bubbles.gif)
 
@@ -70,7 +70,7 @@ Path to a GIF file.
 Type: `String`
 Example: `'output/frame-%d.png'`
 
-Optional frame pattern if you want to write each frame to disk. Should contain a `%d` format specifier that will be replaced with the zero-based frame number.
+Optional frame pattern if you want to write each frame to disk. Should contain a `%d` that will be replaced with the frame number (starting at 0).
 
 The resulting [ndarray](https://github.com/scijs/ndarray) will be returned whether or not an `output` is given.
 
