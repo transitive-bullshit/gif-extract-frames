@@ -11,7 +11,7 @@ Some GIFs store delta information between frames instead of storing complete fra
 
 ---
 
-Original gif ([source](https://media.giphy.com/media/ycagKBYEmaili/giphy.gif).
+Original gif ([source](https://media.giphy.com/media/ycagKBYEmaili/giphy.gif)).
 
 ![Input gif bubbles](https://raw.githubusercontent.com/transitive-bullshit/gif-extract-frames/master/media/bubbles.gif)
 
