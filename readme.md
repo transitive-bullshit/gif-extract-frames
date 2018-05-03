@@ -84,8 +84,8 @@ Whether or not to perform inter-frame coalescing.
 
 ## Related
 
-- [gifsicle](https://github.com/kohler/gifsicle) - GIF manipulation library capable of *exploding* gifs, but AFAIK does not support frame coalescing.
-- [gif-explode](https://github.com/hughsk/gif-explode) - Alternative which uses [gifsicle]() but does not support frame coalescing.
+- [gifsicle](https://github.com/kohler/gifsicle) - GIF manipulation library capable of *exploding* gifs, but AFAIK does not support frame coalescing when exporting frames.
+- [gif-explode](https://github.com/hughsk/gif-explode) - Alternative which uses [gifsicle](https://github.com/kohler/gifsicle) but does not support frame coalescing.
 - [omggif](https://github.com/deanm/omggif) - JavaScript GIF encoder & decoder used under the hood.
 - [ffmpeg-extract-frames](https://github.com/transitive-bullshit/ffmpeg-extract-frames) - Analogous module for extracting frames from video files.
 
