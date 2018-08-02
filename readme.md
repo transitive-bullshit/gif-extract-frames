@@ -2,7 +2,7 @@
 
 > Extracts frames from GIFs including inter-frame coalescing.
 
-[![NPM](https://img.shields.io/npm/v/gif-extract-frames.svg)](https://www.npmjs.com/package/gif-extract-frames) [![Build Status](https://travis-ci.org/transitive-bullshit/gif-extract-frames.svg?branch=master)](https://travis-ci.org/transitive-bullshit/gif-extract-frames) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/gif-extract-frames.svg)](https://www.npmjs.com/package/gif-extract-frames) [![Build Status](https://travis-ci.com/transitive-bullshit/gif-extract-frames.svg?branch=master)](https://travis-ci.com/transitive-bullshit/gif-extract-frames) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
 ## Why?

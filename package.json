@@ -6,6 +6,7 @@
   "repository": "transitive-bullshit/gif-extract-frames",
   "author": "Travis Fischer <travis@automagical.ai>",
   "license": "MIT",
+  "reveal": true,
   "scripts": {
     "test": "ava -v -u && standard"
   },
